@@ -47,7 +47,7 @@ android {
             mavenCentral()
             maven { url "https://jitpack.io" }
             maven { url "https://maven.google.com" }
-            maven { url "http://jcenter.bintray.com/" }
+            jcenter { url "https://jcenter.bintray.com" }
 
 
         }
